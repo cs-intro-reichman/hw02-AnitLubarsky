@@ -5,14 +5,21 @@
 public class Reverse {
 	public static void main (String[] args){
 		String s = args[0];
-		int n =s.length();
-		for(int i=n-1; i>=0; i--){
-			char c=s.charAt(i);
+		int n = s.length();
+		for( int i=n-1; i >= 0; i-- ){
+			char c = s.charAt(i);
 			System.out.print(c);
 			
 		}
-		int m =n/2;
-        System.out.println();
-		System.out.println("The middle character is " + s.charAt(m));
-	}
-}
+		if ( n%2 != 0 )  {
+        	int m = n/2;
+			System.out.println();
+			System.out.println("The middle character is " + s.charAt(m));
+	    } else {	
+			int m = n/2-1;	
+        	System.out.println();
+			System.out.println("The middle character is " + s.charAt(m)); 
+		}
+  }
+ } 
+
