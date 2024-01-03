@@ -25,14 +25,13 @@ public class OneOfEachStats {
 			do{
 				double x = generator.nextDouble();
 		 		if (0<= x && x < 0.5) {
-				System.out.print("g "+ " ");
+				//System.out.print("g "+ " ");
 				g++;
 			 	}else {
-				System.out.print("b " + " ");
+				//System.out.print("b " + " ");
 				b++;
 			 	}
 			}while ( g==0 || b==0 );
-			System.out.println();
 			sumbg = sumbg + (g+b);
 			if(g+b == 2){
 				twoChildren++;
