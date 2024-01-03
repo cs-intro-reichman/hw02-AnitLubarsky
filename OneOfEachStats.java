@@ -39,7 +39,7 @@ public class OneOfEachStats {
 			if(g+b == 3){
 				threeChildren++;
 			}
-			 if(g+b == 4){
+			 if(g+b >= 4){
 				fourChildren++;
 			 }
 		}
