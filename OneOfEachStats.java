@@ -26,10 +26,10 @@ public class OneOfEachStats {
 				double x = generator.nextDouble();
 		 		if (0<= x && x < 0.5) {
 				//System.out.print("g "+ " ");
-				g++;
+					g++;
 			 	}else {
 				//System.out.print("b " + " ");
-				b++;
+					b++;
 			 	}
 			}while ( g==0 || b==0 );
 			sumbg = sumbg + (g+b);
@@ -49,13 +49,13 @@ public class OneOfEachStats {
 		System.out.println("Number of families with 4 or more children: " + fourChildren);
 		int commonNumber = Math.max(twoChildren,Math.max(threeChildren,fourChildren));
 		if(commonNumber == twoChildren){
-			System.out.println("The most common number of children is 2");
+			System.out.println("The most common number of children is 2.");
 		}
 		if(commonNumber == threeChildren){
-	    	System.out.println("The most common number of children is 3");
+	    	System.out.println("The most common number of children is 3.");
 		}
 		if (commonNumber == fourChildren) {
-			System.out.println("The most common number of children is 4");
+			System.out.println("The most common number of children is 4.");
 		}
 		
 		//// In the previous version of this program, you used a statement like:
