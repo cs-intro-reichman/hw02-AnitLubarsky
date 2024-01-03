@@ -9,7 +9,7 @@ public class Perfect {
 		int sumi = 0;
 		while (i<x) {
 			 if(x%i == 0) {
-				y = y + "+" + i;
+				y = y + " + " + i;
 				sumi = sumi + i;
 			 }
 			i++;
