@@ -9,7 +9,7 @@ public class OneOfEach {
 		int b = 0;
 		do{
 			double x = Math.random();
-		 	if (0<= x && x < 0.5) {
+		 	if (0<= x && x < 0.5) { // #feedback - should be x >= 0.
 				System.out.print("g "+ " ");
 				g++;
 			 }else {
