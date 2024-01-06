@@ -14,7 +14,7 @@ public class Perfect {
 			 }
 			i++;
 		}
-		if(x == sumi + 1){
+		if(x == sumi + 1){ //#feedback - the check should be that x is equal to the sum
 			System.out.println(y);
 		}
 		else{
